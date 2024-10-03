@@ -24,3 +24,5 @@ app.post("/api/infos", infosController.createInfo);
 app.get("/api/infos", infosController.getInfos);
 //검색 데이터 조회
 app.get("/api/search", searchController.searchKeyword);
+
+module.exports = app;

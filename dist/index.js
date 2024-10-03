@@ -22,7 +22,7 @@ const cors_1 = __importDefault(require("cors"));
 const app = (0, express_1.default)();
 app.use(express_1.default.json());
 app.use(express_1.default.urlencoded({ extended: true }));
-app.use((0, morgan_1.default)("dev"));
+app.use((0, morgan_1.default)("dev")); //logging
 app.use(errorHandler_1.ErrorHandler); //middleware
 app.use((0, cors_1.default)()); //모든 도메인 허용
 let collection;
@@ -37,3 +37,4 @@ app.post("/api/infos", infosController_1.default.createInfo);
 app.get("/api/infos", infosController_1.default.getInfos);
 //검색 데이터 조회
 app.get("/api/search", searchController_1.default.searchKeyword);
+module.exports = app;
