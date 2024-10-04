@@ -1,9 +1,9 @@
-import mongooseConnection from "./configs/mongoose-connection";
+import mongooseConnection from "../src/configs/mongoose-connection";
 import express from "express";
 import morgan from "morgan";
-import infosController from "./controllers/infosController";
-import { ErrorHandler } from "./middlewares/errorHandler";
-import searchController from "./controllers/searchController";
+import infosController from "../src/controllers/infosController";
+import { ErrorHandler } from "../src/middlewares/errorHandler";
+import searchController from "../src/controllers/searchController";
 import cors from "cors";
 const app = express();
 app.use(express.json());
