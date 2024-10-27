@@ -1,6 +1,6 @@
 ✎React + TypeScript 개발
 
-✎Nestjs + TypeScript 개발
+✎Nestjs + TypeScript 개발
 
 ✎MongoDB + Mongoose 활용
 
