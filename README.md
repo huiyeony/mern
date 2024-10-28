@@ -55,7 +55,8 @@
 # 4. Tasks & Responsibilities (작업 및 역할 분담)
 |  |  |  |
 |-----------------|-----------------|-----------------|
-| 이동규    |  <img src="https://github.com/user-attachments/assets/c1c2b1e3-656d-4712-98ab-a15e91efa2da" alt="이동규" width="100"> | <ul>
+| 양희연    |
+<img src="https://github.com/user-attachments/assets/c1c2b1e3-656d-4712-98ab-a15e91efa2da" alt="양희연" width="100"> | <ul>
 <li>프로젝트 계획 및 관리</li>
 <li>home / upload 페이지 개발</li>
 <li>Nestjs 서버 개발</li>
